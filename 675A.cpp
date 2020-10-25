@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    int t,n;
+    int a,b,c,t;
     cin>>t;
     while(t--){
-        cin>>n;
-        cout<<n/2<<endl;
+        cin>>a>>b>>c;
+        cout<<max(max(a,b),c)<<endl;
     }
     return 0;
 }
